@@ -7,11 +7,11 @@ const Pagination = ({info, pageNumber, setPageNumber}) => {
   forcePage={pageNumber === 1? 0: pageNumber - 1}
   nextLabel="Next"
   previousLabel= "Prev"
-  nextClassName= "btn btn-dark"
-  previousClassName="btn btn-dark"
-  pageClassName='page-item'
-  pageLinkClassName='page-link'
-  activeClassName='active'
+  nextclassName= "btn btn-dark"
+  previousclassName="btn btn-dark"
+  pageclassName='page-item'
+  pageLinkclassName='page-link'
+  activeclassName='active'
   onPageChange={(data)=> {
     setPageNumber(data.selected + 1)
   }}
